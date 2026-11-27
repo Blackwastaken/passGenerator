@@ -6,3 +6,5 @@ availableChars = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 for i in range(passLength):
     randomPass = random.choice(availableChars)
     print(randomPass, end="")
+
+print("something branchy goes here.")
